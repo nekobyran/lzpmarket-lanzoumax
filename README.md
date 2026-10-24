@@ -86,3 +86,26 @@
 - 88 个 APK 均完成 DEX、资源及原生库中的公开链接静态检查。内嵌聚合链接不等于作者迁移声明；未确认的链接不替换现有源。林夕当前公开分发证据指向 UC 网盘，不冒作蓝奏云迁移。
 
 本轮客户端发布为 LanzouPlus 1.9.9 正式版。审计、版本比较与逐项处理记录保存在主工程 `verification/v199/apk-analysis/` 与 `verification/v199/sources/`。
+
+## 1.0.4 软件库合集官方核查
+
+逐项检查全部 88 项原简介与公开更新入口：20 项确认官网，37 项确认作者发布或更新入口，31 项尚未确认可靠入口。未确认不表示已是最新版。包含此前 1.0.3 的两项，本维护列表累计更新 13 项；其中 5 项新版更换包名，已注明需要独立安装。原始蓝奏文件简介提供新版链接，原分享文件仍对应其标注的旧版本。
+
+在主线程完成六组 88 项官方更新与官网审查后，维护源沿用原始目录、出处说明与 1.0.3 已验证升级。
+第 46 项漫游社区若获批使用官网非蓝奏直链，将其成员分类改为非蓝奏云源；维护合集父源同时包含蓝奏云源与非蓝奏云源。
+88 项新的官网及现行状态说明来自 verification/v199/official-review/reviewed-88.json 的 description 字段。
+旧版 1.0.3 的蓝云搜索 1.3.7 和小七软件库 1.6.0 两项升级继续保留。
+以下新版由主线程最终确认，才进入维护合集：
+- 第 20 项：1.6.1，公开地址 https://www.lanzoux.com/idFpF4adcrob；证据 verification/v199/apk-analysis/candidates-g3-verified.json#ordinal=20。
+- 第 39 项：4.5.8，公开地址 https://dl.vikacg.cc/android/main/native_1099.apk；证据 verification/v199/apk-analysis/candidates-g3-verified.json#ordinal=39。
+- 第 46 项：2.3.6，公开地址 https://community.manyou520.top/api/manyou/%E6%BC%AB%E6%B8%B8%E7%A4%BE%E5%8C%BA.apk；证据 verification/v199/apk-analysis/candidates-verified.json#ordinal=46。
+- 第 60 项：2.0.4，公开地址 https://sansuixiaoju.lanzoue.com/iFmFY48ym7wd；证据 verification/v199/apk-analysis/candidates-verified.json#ordinal=60。
+- 第 61 项：3.2.0，公开地址 https://www.lanzoux.com/irP1C49tpyvi；证据 verification/v199/official-review/group-5/evidence/verify-061.json 与 folder-b00taq43ed.json。
+- 第 65 项：2.5.0，公开地址 https://www.lanzoux.com/ipkNC3zdg4gd；证据 verification/v199/official-review/group-5/evidence/verify-065.json 与 folder-b01392e6gd.json / folder-b0138y2b8j.json。
+- 第 69 项：3.0.5，公开地址 https://www.lanzoux.com/iIGrr48zxk0b；证据 verification/v199/official-review/group-5/evidence/verify-069.json 与 folder-b01gibjxch.json。
+- 第 70 项：3.6，公开地址 https://www.lanzoux.com/iQRdU495sbwf；证据 verification/v199/official-review/group-5/evidence/verify-070.json 与 folder-zhuxx2.json。
+- 第 71 项：3.3.0，公开地址 https://www.lanzoux.com/iuro74agbskf；证据 verification/v199/apk-analysis/lugu71-official-version-api.json 与 verification/v199/apk-analysis/lugu71-official-folder.json 与 verification/v199/apk-analysis/lugu71-latest-apk-verification.json 与 verification/v199/apk-analysis/lugu71-v330-verified.json。
+- 第 79 项：1.2.0，公开地址 https://www.lanzoux.com/i4EYe3zxjsva；证据 verification/v199/official-review/group-6/evidence/verify-079.json。
+- 第 85 项：3.6，公开地址 https://www.lanzoux.com/iPHS0495sumj；证据 verification/v199/official-review/group-6/evidence/verify-085.json。
+
+原始软件库目录仍为 https://www.lanzoux.com/b00yas6g5g；所有非维护合集源均保留，原目录文件及逐条出处未删除。
