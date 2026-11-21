@@ -34,5 +34,14 @@
     "空目录",
     "待分类",
     "音频"
-  ]
+  ],
+  "index": {
+    "name": "LanzouMax 全源索引",
+    "url": "https://github.com/nekobyran/lanzouplus/releases/download/v2.1.5/full-source.lzindex.json.gz",
+    "builtAt": 1795192154871,
+    "entryCount": 83787,
+    "sourceCount": 2475,
+    "coveredSourceCount": 2321,
+    "size": 4314042
+  }
 }
